@@ -4,4 +4,7 @@ var hoursPerDay = 24;
 var daysPerWeek = 7;
 var weeksPerYear = 52;
 var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
-document.write("There are " + secondsPerDay + " seconds in a day");
+document.write("There are " + secondsPerDay + " seconds in a day. ");
+var yearsAlive = 28;
+var secondsYearsAlive = secondsPerDay * daysPerWeek * weeksPerYear * yearsAlive;
+document.write(" I have been alive for " + secondsYearsAlive + " seconds.");
